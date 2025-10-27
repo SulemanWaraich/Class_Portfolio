@@ -54,6 +54,18 @@ const skills = [
 const projects = [
   {
     id: 1,
+    img: "/assets/Images/project/rota.png",
+    title: "Rota - Sokakta Kalanlar",
+    status: true,
+    content:
+      "Discover places around the world, create travel plans, and draw your route. Join the street wanderers community and experience the real city. A comprehensive travel platform with advanced search, AI-powered recommendations, and real-time route planning.",
+    url: "https://rota.tips/",
+    github: "",
+    skill: ["Flutter", "Laravel", "TypeScript", "Python", "AWS", "OpenSearch", "DynamoDB", "MySQL", "LLM"],
+    preview: "",
+  },
+  {
+    id: 2,
     img: "/assets/Images/project/parolla.png",
     title: "parolla.app",
     status: true,
@@ -65,7 +77,7 @@ const projects = [
     preview: "",
   },
   {
-    id: 2,
+    id: 3,
     img: "/assets/Images/project/sanalyer.png",
     title: "sanalyer.com",
     status: true,
@@ -77,7 +89,7 @@ const projects = [
     preview: "",
   },
   {
-    id: 3,
+    id: 4,
     img: "/assets/Images/project/old-portfolio.png",
     title: "Old Portfolio",
     status: true,
