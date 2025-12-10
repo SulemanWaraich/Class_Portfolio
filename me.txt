@@ -1,0 +1,100 @@
+ABDULLAH BOZDAG - SOFTWARE DEVELOPER
+================================================================================
+
+CONTACT
+-------
+Email: abdullah@radkod.com
+Phone: +90 545 787 8918
+Location: Izmir, Turkey
+GitHub: github.com/apo-bozdag
+LinkedIn: linkedin.com/in/apo-bozdag
+
+SUMMARY
+-------
+Software developer with 8+ years backend/full-stack experience. Primary focus:
+PHP, Python, Node.js for scalable APIs and web applications. AWS infrastructure
+management. Frontend work in React, Vue.js. Mobile development with Flutter.
+Remote work experience in cross-functional teams. Active in open-source.
+
+PROFESSIONAL EXPERIENCE
+-----------------------
+
+Back-End Developer | Tripian Inc.
+May 2018 - Present | Remote (Toronto, Canada)
+
+- Core team member since company founding
+- Backend development: PHP, Python
+- API design and maintenance
+- Frontend contributions: React, Vue.js, SCSS
+- AWS infrastructure management (performance, scalability, cost)
+- Agile workflows, cross-team collaboration
+
+---
+
+Full-Stack Developer (Freelance/Open Source) | RadKod
+September 2016 - Present
+
+- Founded developer collective for open-source and freelance work
+- Projects: Flutter mobile apps, web games, backend services, APIs
+- Active GitHub contributor
+- Focus: continuous learning and experimentation
+
+---
+
+Back-End Developer | AvantajBizde
+December 2015 - April 2017 | Izmir, Turkey
+
+- C2C e-commerce platform development
+- Laravel, ORM, domain-driven design implementation
+
+---
+
+Back-End Developer | Promega
+August 2015 - December 2015 | Izmir, Turkey
+
+- PHP backend modules
+- Algorithm and data structure work
+
+---
+
+Back-End Developer | TurkWebAjans
+February 2014 - January 2015 | Izmir, Turkey
+
+- Client websites: classic ASP, Adobe Flash
+- Junior developer role, initial industry experience
+
+EDUCATION
+---------
+
+Information Technology and Web Programming
+Atatürk Anatolian Technical and Industrial Vocational High School
+2013 - 2016 | Izmir, Turkey
+
+Computer Programming
+Mehmet Akif Ersoy University
+2017 | Burdur, Turkey
+Note: Focused on independent professional development alongside formal studies
+
+TECHNICAL SKILLS
+----------------
+
+Backend:
+  PHP, Python, Node.js, Laravel, ORM, Django, Flask, Playwright, Camoufox,
+  Scrapy, Selenium, Domain-Driven Design (DDD)
+
+Frontend:
+  React, Vue.js, SCSS
+
+Mobile:
+  Flutter
+
+DevOps & Cloud:
+  AWS, server management
+
+Version Control:
+  Git (GitHub, GitLab)
+
+Other:
+  RESTful APIs, web game development, e-commerce platforms
+
+================================================================================

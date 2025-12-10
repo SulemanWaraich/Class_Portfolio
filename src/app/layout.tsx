@@ -15,14 +15,14 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Rinkit Adhana - Portfolio",
-    template: "%s | Rinkit Adhana"
+    default: "Abdullah Bozdag - Software Developer",
+    template: "%s | Abdullah Bozdag"
   },
-  description: "Portfolio of Rinkit Adhana - Full Stack Developer specializing in React, Next.js, Node.js, and modern web technologies.",
-  keywords: ["Rinkit Adhana", "Portfolio", "Full Stack Developer", "React", "Next.js", "Node.js", "Web Developer"],
-  authors: [{ name: "Rinkit Adhana" }],
-  creator: "Rinkit Adhana",
-  metadataBase: new URL("https://www.rinkit.tech"),
+  description: "Portfolio of Abdullah Bozdag - Software Developer with 8+ years of backend and full-stack experience. Specializing in PHP, Python, Node.js, Laravel, Django, React, Vue.js, and AWS infrastructure.",
+  keywords: ["Abdullah Bozdag", "Portfolio", "Software Developer", "Backend Developer", "Full Stack Developer", "PHP", "Laravel", "Python", "Django", "Node.js", "Vue.js", "React", "AWS"],
+  authors: [{ name: "Abdullah Bozdag" }],
+  creator: "Abdullah Bozdag",
+  metadataBase: new URL("https://abdullahbozdag.com"),
   icons: {
     icon: [
       {
@@ -50,27 +50,27 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: "Rinkit Adhana - Portfolio",
-    description: "Portfolio of Rinkit Adhana - Full Stack Developer specializing in React, Next.js, Node.js, and modern web technologies.",
-    url: "https://www.rinkit.tech",
-    siteName: "Switchfolio",
+    title: "Abdullah Bozdag - Software Developer",
+    description: "Portfolio of Abdullah Bozdag - Software Developer with 8+ years of backend and full-stack experience. Specializing in PHP, Python, Node.js, Laravel, Django, React, Vue.js, and AWS infrastructure.",
+    url: "https://abdullahbozdag.com",
+    siteName: "Abdullah Bozdag Portfolio",
     images: [
       {
-        url: "https://res.cloudinary.com/dhcocqegu/image/upload/v1753737110/OGN_o7spwl.png",
+        url: "/assets/Images/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Rinkit Adhana - Portfolio"
+        alt: "Abdullah Bozdag - Software Developer"
       },
     ],
-    locale: "en-IN",
+    locale: "en-US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rinkit Adhana - Portfolio",
-    description: "Portfolio of Rinkit Adhana - Full Stack Developer specializing in React, Next.js, Node.js, and modern web technologies.",
-    images: ["https://res.cloudinary.com/dhcocqegu/image/upload/v1753737110/OGN_o7spwl.png"],
-    creator: "@damnGruz",
+    title: "Abdullah Bozdag - Software Developer",
+    description: "Portfolio of Abdullah Bozdag - Software Developer with 8+ years of backend and full-stack experience.",
+    images: ["/assets/Images/og-image.png"],
+    creator: "@apo_bozdag",
   },
   robots: {
     index: true,

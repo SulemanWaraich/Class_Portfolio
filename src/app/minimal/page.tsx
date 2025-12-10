@@ -6,6 +6,6 @@ export const metadata: Metadata = {
   description: "I build web applications and solve problems with code.",
 }
 
-export default function Home() {
+export default function MinimalPage() {
   return <MinimalLanding />
 }

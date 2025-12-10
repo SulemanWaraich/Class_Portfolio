@@ -6,7 +6,7 @@ export const TitleUpdater = () => {
   const { isSwitchOn } = useSwitch()
 
   useEffect(() => {
-    document.title = isSwitchOn ? "Gruz" : "Rinkit Adhana"
+    document.title = isSwitchOn ? "Abdullah Bozdağ" : "Abdullah Bozdag"
   }, [isSwitchOn])
 
   return null
