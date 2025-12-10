@@ -55,13 +55,13 @@ const projects = [
   {
     id: 1,
     img: "/assets/Images/project/rota.png",
-    title: "Rota - Sokakta Kalanlar",
+    title: "Rota - Şehir Rehberi",
     status: true,
     content:
       "Discover places around the world, create travel plans, and draw your route. Join the street wanderers community and experience the real city. A comprehensive travel platform with advanced search, AI-powered recommendations, and real-time route planning.",
     url: "https://rota.tips/",
     github: "",
-    skill: ["Flutter", "Laravel", "TypeScript", "Python", "AWS", "OpenSearch", "DynamoDB", "MySQL", "LLM"],
+    skill: ["React Native", "Laravel", "TypeScript", "Python", "AWS", "OpenSearch", "DynamoDB", "MySQL", "LLM", "Laravel Nightwatch", "Laravel Forge"],
     preview: "",
   },
   {
