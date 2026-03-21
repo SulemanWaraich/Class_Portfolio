@@ -1,8 +1,8 @@
 "use client"
-import { abdullahTRAbout } from "@/data/AbdullahTRData/data"
+import { sulemanTRAbout } from "@/data/AbdullahTRData/data"
 import SectionTitle from "../SectionTitle"
 import { useSwitch } from "../Context/SwitchContext"
-import { abdullahAbout } from "@/data/AbdullahData/data"
+import { sulemanAbout } from "@/data/AbdullahData/data"
 
 const AboutMe = () => {
   const { isSwitchOn } = useSwitch()
@@ -13,7 +13,7 @@ const AboutMe = () => {
       <div className="flex flex-col gap-2">
         <div
           dangerouslySetInnerHTML={{
-            __html: isSwitchOn ? abdullahTRAbout : abdullahAbout,
+            __html: isSwitchOn ? sulemanTRAbout : sulemanAbout,
           }}
           className="flex flex-col gap-1"
         />

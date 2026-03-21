@@ -1,7 +1,7 @@
 "use client"
-import { abdullahTRImage } from "@/data/AbdullahTRData/data"
+import { sulemanTRImage } from "@/data/AbdullahTRData/data"
 import { useSwitch } from "../Context/SwitchContext"
-import { abdullahImage } from "@/data/AbdullahData/data"
+import { sulemanImage } from "@/data/AbdullahData/data"
 import Image from "next/image"
 import { navLinks } from "@/data/Common/data"
 import { InfoTipNav } from "../InfoTipNav"
@@ -34,12 +34,12 @@ const Nav = () => {
           onMouseEnter={handleArrowVisibility}
         >
           <Image
-            src={isSwitchOn ? abdullahImage : abdullahTRImage}
+            src={isSwitchOn ? sulemanImage : sulemanTRImage}
             alt="Profile Picture"
             className="rounded-md"
             width={35}
             height={35}
-            // title={isSwitchOn ? abdullahShortName : abdullahTRName}
+            // title={isSwitchOn ? sulemanShortName : sulemanTRName}
           />
         </div>
         {isArrowVisible && (

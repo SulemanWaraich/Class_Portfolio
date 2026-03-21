@@ -55,53 +55,53 @@ const skills = [
 const projects = [
   {
     id: 1,
-    img: "/assets/Images/project/rota.png",
-    title: "Rota - Şehir Rehberi",
+    img: "/assets/Images/project/pakpay.png", // add screenshot
+    title: "PakPay – Fintech Payment Platform",
     status: true,
     content:
-      "Discover places around the world, create travel plans, and draw your route. Join the street wanderers community and experience the real city. A comprehensive travel platform with advanced search, AI-powered recommendations, and real-time route planning.",
-    url: "https://rota.tips/",
-    github: "",
-    skill: ["React Native", "Laravel", "TypeScript", "Python", "AWS", "OpenSearch", "DynamoDB", "MySQL", "LLM", "Laravel Nightwatch", "Laravel Forge"],
-    preview: "",
+      "Built a fintech platform for secure and real-time digital payments. Designed a ledger-based wallet system where balances are derived from transactions to ensure consistency. Implemented real-time updates using WebSockets and developed scalable backend services with Node.js and PostgreSQL. Deployed using AWS, Docker, and CI/CD pipelines.",
+    url: "https://pakpay10.site", // add live link if available
+    github: "https://github.com/SulemanWaraich/PakPay", // add repo
+    skill: ["Node.js", "PostgreSQL", "Next.js", "Docker", "AWS", "WebSockets", "CI/CD"],
+    preview: "case-study", // use this to link case study page
   },
   {
     id: 2,
-    img: "/assets/Images/project/parolla.png",
-    title: "parolla.app",
+    img: "/assets/Images/project/leetcode.png",
+    title: "LeetCode Clone – Coding Platform",
     status: true,
     content:
-      "Solve daily puzzles and compete with others. Create your own question-answer sets and solve fun quizzes created by players. A Turkish word game platform built with Vue.js and Laravel.",
-    url: "https://parolla.app/",
+      "Developed an interactive coding platform with dynamic problem rendering and test execution logic. Designed backend APIs to handle submissions and evaluate test cases, focusing on performance and scalable architecture.",
+    url: "",
     github: "",
-    skill: ["Vue.js", "Laravel", "MySQL", "AWS"],
+    skill: ["React", "Node.js", "PostgreSQL", "REST APIs"],
     preview: "",
   },
   {
     id: 3,
-    img: "/assets/Images/project/sanalyer.png",
-    title: "sanalyer.com",
+    img: "/assets/Images/project/claude.png",
+    title: "AI Chat App – Claude Clone",
     status: true,
     content:
-      "Telling stories that mainstream media won't. A modern content platform covering technology, travel, and software development with original research, in-depth analysis, and unique perspectives on Turkish tech ecosystem.",
+      "Built an AI-powered chat application with real-time streaming responses and conversation memory. Integrated external AI APIs and designed a responsive UI for smooth user interaction.",
+    url: "",
     github: "",
-    url: "https://sanalyer.com/",
-    skill: ["WordPress", "PHP", "MySQL"],
+    skill: ["Next.js", "OpenAI API", "TailwindCSS", "JavaScript"],
     preview: "",
   },
   {
     id: 4,
-    img: "/assets/Images/project/old-portfolio.png",
-    title: "Old Portfolio",
+    img: "/assets/Images/project/metaverse.png",
+    title: "Metaverse Game – Interactive 3D Experience",
     status: true,
     content:
-      "My previous portfolio website built with React, featuring a cyberpunk-inspired design aesthetic. Includes sections for blog posts, projects showcase, and about me. Dark theme with neon accents and futuristic UI elements.",
-    github: "https://github.com/apo-bozdag/apo-bozdag.github.io",
-    url: "https://apo-bozdag.github.io/",
-    skill: ["React", "CSS", "JavaScript"],
+      "Developed an interactive metaverse-style web experience with real-time user interactions and dynamic environments. Focused on performance optimization and immersive UI/UX design.",
+    url: "",
+    github: "",
+    skill: ["JavaScript", "Three.js", "React", "WebGL"],
     preview: "",
   },
-]
+];
 
 const writings = [
   // Add your blog posts or articles here
@@ -131,19 +131,19 @@ const navLinks = [
   {
     id: 2,
     name: "X",
-    link: "https://x.com/apo_bozdag",
+    link: "https://x.com/Suleman_devx",
     icon: FaXTwitter,
   },
   {
     id: 3,
     name: "GitHub",
-    link: "https://github.com/apo-bozdag",
+    link: "https://github.com/Suleman_Waraich",
     icon: FaGithub,
   },
   {
     id: 4,
     name: "LinkedIn",
-    link: "https://linkedin.com/in/apo-bozdag",
+    link: "https://www.linkedin.com/in/muhammad-suleman-9aa056292/",
     icon: FaLinkedinIn,
   },
 ]

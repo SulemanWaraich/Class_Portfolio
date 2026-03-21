@@ -1,11 +1,11 @@
 "use client"
-import { abdullahTRFooterLink, abdullahTRName } from "@/data/AbdullahTRData/data"
+import { sulemanTRFooterLink, sulemanTRName } from "@/data/AbdullahTRData/data"
 import { useSwitch } from "../Context/SwitchContext"
-import { abdullahFooterLink, abdullahShortName } from "@/data/AbdullahData/data"
+import { sulemanFooterLink, sulemanShortName } from "@/data/AbdullahData/data"
 
 const Footer = () => {
   const { isSwitchOn } = useSwitch()
-  const footerLinks = isSwitchOn ? abdullahTRFooterLink : abdullahFooterLink
+  const footerLinks = isSwitchOn ? sulemanTRFooterLink : sulemanFooterLink
   return (
     <footer className="md:mb-12 mb-16">
       <div className=" border-t border-zinc-700 my-6" />
@@ -23,7 +23,7 @@ const Footer = () => {
           ))}
         </div>
         <p className="text-sm ">
-          © 2025 {isSwitchOn ? abdullahTRName : abdullahShortName}. All rights reserved.
+          © 2025 {isSwitchOn ? sulemanTRName : sulemanShortName}. All rights reserved.
         </p>
       </div>
     </footer>

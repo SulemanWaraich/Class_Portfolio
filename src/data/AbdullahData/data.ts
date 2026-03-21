@@ -1,13 +1,13 @@
 import { FaLinkedinIn, FaXTwitter, FaGithub } from "react-icons/fa6"
 import { MdOutlineMail } from "react-icons/md"
 
-const abdullahImage = "/assets/Images/pfps/abdullah.png"
-const abdullahName = "Abdullah Bozdag"
-const abdullahShortName = "Abdullah"
-const abdullahBio = "Software Developer"
-const abdullahAbout = `
+const sulemanImage = "/assets/Images/pfps/suleman.jpg"
+const sulemanName = "Muhammad Suleman"
+const sulemanShortName = "Suleman"
+const sulemanBio = "Software Developer"
+const sulemanAbout = `
   <p>
-    Hey! I'm Abdullah Bozdag, a software developer with 8+ years of backend and full-stack experience. I love building scalable applications that solve real-world problems.
+    Hey! I'm Muhammad Suleman, a software developer with 8+ years of backend and full-stack experience. I love building scalable applications that solve real-world problems.
   </p>
   <p>
     I primarily work with PHP, Python, and Node.js for backend development, and have extensive experience with AWS infrastructure management. On the frontend, I work with React and Vue.js, and I also develop mobile applications with Flutter.
@@ -17,91 +17,91 @@ const abdullahAbout = `
   </p>
 `
 
-const abdullahLink = [
+const sulemanLink = [
   {
     id: 1,
     name: "X",
-    link: "https://x.com/apo_bozdag",
+    link: "https://x.com/Suleman_devx",
     icon: FaXTwitter,
   },
   {
     id: 2,
     name: "Github",
-    link: "https://github.com/apo-bozdag",
+    link: "https://github.com/SulemanWaraich",
     icon: FaGithub,
   },
   {
     id: 3,
     name: "LinkedIn",
-    link: "https://linkedin.com/in/apo-bozdag",
+    link: "https://www.linkedin.com/in/muhammad-suleman-9aa056292/",
     icon: FaLinkedinIn,
   },
 ]
 
-const abdullahContact =
+const sulemanContact =
   "Feel free to reach out to me via email for any inquiries, collaboration opportunities, or just to say hi!"
-const abdullahContactLink = [
+const sulemanContactLink = [
   {
     id: 1,
     name: "X",
-    link: "https://x.com/apo_bozdag",
+    link: "https://x.com/Suleman_devx",
     icon: FaXTwitter,
   },
   {
     id: 2,
     name: "Email",
-    link: "mailto:abdullah@radkod.com",
+    link: "mailto:suleman.devx@gmail.com",
     icon: MdOutlineMail,
   },
   {
     id: 3,
     name: "Github",
-    link: "https://github.com/apo-bozdag",
+    link: "https://github.com/SulemanWaraich",
     icon: FaGithub,
   },
   {
     id: 4,
     name: "LinkedIn",
-    link: "https://linkedin.com/in/apo-bozdag",
+    link: "https://www.linkedin.com/in/muhammad-suleman-9aa056292/",
     icon: FaLinkedinIn,
   },
 ]
 
-const abdullahFooterLink = [
+const sulemanFooterLink = [
   {
     id: 1,
     name: "X",
-    link: "https://x.com/apo_bozdag",
+    link: "https://x.com/Suleman_devx",
     icon: FaXTwitter,
   },
   {
     id: 2,
     name: "Mail",
-    link: "mailto:abdullah@radkod.com",
+    link: "mailto:suleman.devx@gmail.com",
     icon: MdOutlineMail,
   },
   {
     id: 3,
     name: "Github",
-    link: "https://github.com/apo-bozdag",
+    link: "https://github.com/SulemanWaraich",
     icon: FaGithub,
   },
   {
     id: 4,
     name: "LinkedIn",
-    link: "https://linkedin.com/in/apo-bozdag",
+    link: "https://www.linkedin.com/in/muhammad-suleman-9aa056292/",
     icon: FaLinkedinIn,
   },
 ]
 
 export {
-  abdullahImage,
-  abdullahBio,
-  abdullahContact,
-  abdullahContactLink,
-  abdullahName,
-  abdullahShortName,
-  abdullahAbout,
-  abdullahLink,
-  abdullahFooterLink,
+  sulemanImage,
+  sulemanBio,
+  sulemanContact,
+  sulemanContactLink,
+  sulemanName,
+  sulemanShortName,
+  sulemanAbout,
+  sulemanLink,
+  sulemanFooterLink,
 }

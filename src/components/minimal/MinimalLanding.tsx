@@ -3,8 +3,8 @@
 import { useState, useRef, useLayoutEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { projects } from "@/data/Common/data"
-import { ArrowRight, ExternalLink, Briefcase, Mail, Home } from "lucide-react"
-import { FaGithub } from "react-icons/fa"
+import { ArrowRight, ExternalLink, Briefcase, Mail, Home, FileText } from "lucide-react"
+import { FaGithub, FaFileAlt } from "react-icons/fa"
 
 interface Project {
   id: number
@@ -282,7 +282,7 @@ function SectionContent({
             className="text-5xl md:text-6xl font-bold tracking-tight"
             style={{ color: COLORS.text }}
           >
-            Abdullah Bozdağ
+            Muhammad Suleman
           </h1>
           <p className="text-lg max-w-lg leading-relaxed" style={{ color: `${COLORS.text}CC` }}>
             Backend developer & full-stack builder. I create web applications and solve complex problems with clean, efficient code.
@@ -291,7 +291,7 @@ function SectionContent({
 
         <div className="flex flex-wrap gap-6 text-sm" style={{ color: COLORS.text }}>
           <a
-            href="https://x.com/apo_bozdag"
+            href="https://x.com/Suleman_devx"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors duration-200"
@@ -302,7 +302,7 @@ function SectionContent({
             X (Twitter)
           </a>
           <a
-            href="https://github.com/apo-bozdag"
+            href="https://github.com/SulemanWaraich"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors duration-200"
@@ -313,7 +313,7 @@ function SectionContent({
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/apo-bozdag"
+            href="https://www.linkedin.com/in/muhammad-suleman-9aa056292/"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors duration-200"
@@ -324,7 +324,7 @@ function SectionContent({
             LinkedIn
           </a>
           <a
-            href="mailto:abdullah@radkod.com"
+            href="mailto:suleman.devx@gmail.com"
             className="transition-colors duration-200"
             style={{ color: COLORS.text }}
             onMouseEnter={(e) => e.currentTarget.style.color = COLORS.accent}
@@ -359,39 +359,28 @@ function SectionContent({
   if (section === "experience") {
     const experiences = [
       {
-        year: "2018 - Present",
-        title: "Back-End Developer",
-        company: "Tripian Inc.",
-        location: "Remote (Toronto, Canada)",
-        description: "Core team member. Backend with PHP/Python, API design, React/Vue.js frontend, AWS infrastructure.",
+        year: "2025 - Present",
+        title: "Founder & Software Engineer",
+        company: "PakPay",
+        location: "Remote",
+        description:
+          "Built a fintech platform for secure cross-border payments. Designed a modular backend using Node.js and PostgreSQL with a ledger-based transaction system. Implemented real-time updates using WebSockets and deployed scalable infrastructure on AWS with Docker and CI/CD pipelines.",
       },
       {
-        year: "2016 - Present",
-        title: "Full-Stack Developer",
-        company: "RadKod",
-        location: "Freelance/Open Source",
-        description: "Founded developer collective. Flutter apps, web games, backend services. Active GitHub contributor.",
+        year: "2025 - Present",
+        title: "Digital Skills Trainer",
+        company: "Jugnuu",
+        location: "Karachi, Pakistan",
+        description:
+          "Teaching JavaScript, React, and full-stack development. Mentoring students to build production-ready applications and understand real-world debugging, architecture, and API integration.",
       },
       {
-        year: "2015 - 2017",
-        title: "Back-End Developer",
-        company: "AvantajBizde",
-        location: "Izmir, Turkey",
-        description: "C2C e-commerce platform with Laravel, ORM, and domain-driven design.",
-      },
-      {
-        year: "2015",
-        title: "Back-End Developer",
-        company: "Promega",
-        location: "Izmir, Turkey",
-        description: "PHP backend modules, algorithm and data structure implementation.",
-      },
-      {
-        year: "2014 - 2015",
-        title: "Back-End Developer",
-        company: "TurkWebAjans",
-        location: "Izmir, Turkey",
-        description: "Client websites using classic ASP and Adobe Flash. Junior developer role.",
+        year: "2023 - 2025",
+        title: "Freelance Full Stack Engineer",
+        company: "Self-Employed",
+        location: "Remote",
+        description:
+          "Delivered 10+ full-stack applications across SaaS and web platforms. Built scalable frontends with React and optimized backend APIs using Node.js. Implemented CI/CD pipelines and containerized deployments using Docker.",
       },
     ]
 
@@ -404,7 +393,7 @@ function SectionContent({
         {/* Mini Overview */}
         <div className="space-y-3 pb-2">
           <p className="text-sm" style={{ color: `${COLORS.text}CC` }}>
-            <span style={{ color: COLORS.accent }} className="font-semibold">8+ years</span> building scalable web applications
+            <span style={{ color: COLORS.accent }} className="font-semibold">2+ years</span> building full-stack applications with a strong focus on backend systems and scalable architecture
           </p>
 
           {/* Primary Stack */}
@@ -413,7 +402,15 @@ function SectionContent({
               Primary Stack
             </p>
             <div className="flex flex-wrap gap-2">
-              {["PHP", "Python", "Node.js", "Laravel", "Django", "React", "Vue.js", "Next.js"].map((skill) => (
+              {[
+                "JavaScript",
+                "TypeScript",
+                "Node.js",
+                "NestJS",
+                "Express",
+                "React",
+                "Next.js",
+              ].map((skill) => (
                 <span
                   key={skill}
                   className="px-2 py-1 rounded text-xs font-medium"
@@ -434,7 +431,17 @@ function SectionContent({
               Mobile & Tools
             </p>
             <div className="flex flex-wrap gap-2">
-              {["Flutter", "React Native", "AWS", "Docker", "PostgreSQL", "MongoDB", "Redis", "Git"].map((skill) => (
+              {[
+                "Flutter",
+                "PostgreSQL",
+                "MongoDB",
+                "Prisma",
+                "AWS",
+                "Docker",
+                "CI/CD",
+                "Nginx",
+                "Cloudflare",
+              ].map((skill) => (
                 <span
                   key={skill}
                   className="px-2 py-1 rounded text-xs font-medium"
@@ -664,6 +671,25 @@ function ProjectDetail({
             <span>View Code</span>
           </a>
         )}
+         {project.preview && (
+          <a
+            href={project.preview}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex items-center gap-2 px-4 py-2 rounded-md border transition-colors duration-200"
+            style={{ borderColor: COLORS.text, color: COLORS.text }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.backgroundColor = COLORS.card
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.backgroundColor = "transparent"
+            }}
+          >
+            <FaFileAlt className="w-4 h-4" />
+            <span>Case Study</span>
+          </a>
+        )}
+
       </div>
     </div>
   )
