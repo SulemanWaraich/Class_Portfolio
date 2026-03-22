@@ -1,4 +1,4 @@
-# Abdullah Bozdag - Portfolio
+# Muhammad Suleman - Portfolio
 
 Personal portfolio website showcasing my work, skills, and experience as a software developer. Built with modern web technologies and features a bilingual interface (English/Turkish).
 ## Getting Started
@@ -13,7 +13,6 @@ Personal portfolio website showcasing my work, skills, and experience as a softw
 1. Clone the repository:
 ```bash
 git clone https://github.com/apo-bozdag/abdullahbozdag.com.git
-cd abdullahbozdag.com
 ```
 
 2. Install dependencies:
@@ -60,9 +59,9 @@ This project is based on Switchfolio. Please check the [original repository](htt
 ## Contact
 
 - **Email**: abdullah@radkod.com
-- **X/Twitter**: [@apo_bozdag](https://x.com/apo_bozdag)
-- **LinkedIn**: [apo-bozdag](https://linkedin.com/in/apo-bozdag)
-- **GitHub**: [@apo-bozdag](https://github.com/apo-bozdag)
+- **X/Twitter**: [@apo_bozdag](https://x.com/Suleman_devx)
+- **LinkedIn**: [apo-bozdag]([https://www.linkedin.com/in/muhammad-suleman-9aa056292/])
+- **GitHub**: [@apo-bozdag](https://github.com/Suleman_Waraich)
 
 ---
 
