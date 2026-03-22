@@ -1,10 +1,13 @@
+// src/data/Common/data.ts
+// ─── Add `caseStudy` to any project that has one.
+// ─── Projects without `caseStudy` simply won't show the Case Study button.
+
 import { BiLogoPostgresql, BiLogoPhp } from "react-icons/bi"
 import { FaGithub, FaLinkedinIn, FaPython, FaXTwitter } from "react-icons/fa6"
 import { FaVuejs, FaLaravel, FaAws, FaDocker, FaGitAlt } from "react-icons/fa"
 import { DiJavascript } from "react-icons/di"
 import { IoLogoNodejs } from "react-icons/io5"
 import { SiFlutter, SiScrapy, SiSelenium } from "react-icons/si"
-
 import {
   RiNextjsLine,
   RiReactjsLine,
@@ -19,12 +22,11 @@ import {
   SiDjango,
   SiMysql,
 } from "react-icons/si"
-import {
-  TbBrandTypescript,
-} from "react-icons/tb"
+import { TbBrandTypescript } from "react-icons/tb"
 import { VscTerminalLinux } from "react-icons/vsc"
 import { ImLab } from "react-icons/im"
 
+// ─── Skills ────────────────────────────────────────────────────────────────────
 const skills = [
   { id: 1, icon: BiLogoPhp, text: "PHP" },
   { id: 2, icon: FaPython, text: "Python" },
@@ -52,18 +54,61 @@ const skills = [
   { id: 24, icon: VscTerminalLinux, text: "Linux" },
   { id: 25, icon: SiPostman, text: "Postman" },
 ]
+
+// ─── Projects ──────────────────────────────────────────────────────────────────
+// To add a Case Study to any project, add a `caseStudy` key.
+// Projects WITHOUT `caseStudy` will simply not display the Case Study button.
 const projects = [
   {
     id: 1,
-    img: "/assets/Images/project/pakpay.png", // add screenshot
+    img: "/assets/Images/project/pakpay.png",
     title: "PakPay – Fintech Payment Platform",
     status: true,
     content:
       "Built a fintech platform for secure and real-time digital payments. Designed a ledger-based wallet system where balances are derived from transactions to ensure consistency. Implemented real-time updates using WebSockets and developed scalable backend services with Node.js and PostgreSQL. Deployed using AWS, Docker, and CI/CD pipelines.",
-    url: "https://pakpay10.site", // add live link if available
-    github: "https://github.com/SulemanWaraich/PakPay", // add repo
+    url: "https://pakpay10.site",
+    github: "https://github.com/SulemanWaraich/PakPay",
     skill: ["Node.js", "PostgreSQL", "Next.js", "Docker", "AWS", "WebSockets", "CI/CD"],
-    preview: "case-study", // use this to link case study page
+    preview: "",
+
+    // ── Case study data ────────────────────────────────────────────────────────
+    // Remove this block to hide the Case Study button for this project.
+    caseStudy: {
+      overview:
+        "PakPay is a fintech platform built to enable secure, real-time digital payments for Pakistani users. It targets the growing demand for reliable digital wallets by implementing a ledger-first architecture — every balance is derived from an immutable transaction log, never stored as a mutable field.",
+      problem:
+        "Existing payment solutions in the region suffered from balance inconsistencies, lack of real-time feedback, and poor scalability under load. Users couldn't trust their wallet balances after failed or concurrent transactions, eroding confidence in the platform.",
+      solution:
+        "The core insight was treating every payment as a double-entry ledger transaction. Balances are computed on-demand from the transaction history, making the system provably consistent. WebSocket channels push real-time confirmations to clients, eliminating the need to poll. The entire backend is containerized with Docker and deployed on AWS behind a CI/CD pipeline, allowing zero-downtime releases.",
+      techHighlights: [
+        {
+          label: "Ledger-based wallet system",
+          description:
+            "Instead of storing a mutable balance field, every wallet balance is derived by summing its transaction history. This guarantees consistency even under concurrent writes and makes auditing trivially easy.",
+        },
+        {
+          label: "Real-time updates via WebSockets",
+          description:
+            "A dedicated WebSocket server broadcasts transaction confirmations and balance updates instantly to connected clients, removing polling latency and improving perceived performance.",
+        },
+        {
+          label: "Containerized AWS deployment",
+          description:
+            "All services run in Docker containers orchestrated on AWS ECS. A GitHub Actions CI/CD pipeline runs tests, builds images, and deploys on every merge to main — keeping release cycles under 5 minutes.",
+        },
+        {
+          label: "PostgreSQL with row-level locking",
+          description:
+            "Critical debit/credit operations use SELECT FOR UPDATE to prevent race conditions, ensuring atomicity across concurrent payment requests without sacrificing throughput.",
+        },
+      ],
+      impact: [
+        "Zero balance inconsistencies reported across all test transactions since launch.",
+        "Sub-200 ms end-to-end payment confirmation delivered over WebSocket.",
+        "Deployment downtime reduced to zero with rolling ECS updates.",
+        "Codebase structured to onboard new payment methods (cards, mobile money) with under 2 hours of integration work.",
+      ],
+    },
   },
   {
     id: 2,
@@ -76,6 +121,7 @@ const projects = [
     github: "",
     skill: ["React", "Node.js", "PostgreSQL", "REST APIs"],
     preview: "",
+    // No caseStudy key → Case Study button won't appear
   },
   {
     id: 3,
@@ -101,58 +147,30 @@ const projects = [
     skill: ["JavaScript", "Three.js", "React", "WebGL"],
     preview: "",
   },
-];
-
-const writings = [
-  // Add your blog posts or articles here
-  // Example:
-  // {
-  //   id: 1,
-  //   img: "/assets/Images/writing/example.png",
-  //   head: "Your Article Title",
-  //   des: "Article description",
-  //   link: "https://your-blog-link.com",
-  // },
 ]
+
+// ─── Other data (unchanged) ────────────────────────────────────────────────────
+const writings: never[] = []
 
 const hireText =
   "I'm currently available for freelance projects and consulting opportunities. With 8+ years of experience in backend and full-stack development, I can help bring your ideas to life with scalable, efficient solutions."
 
 const emailLink =
-  "mailto:abdullah@radkod.com?subject=Interested%20in%20Working%20Together"
+  "mailto:suleman.devx@gmail.com?subject=Interested%20in%20Working%20Together"
 
 const navLinks = [
-  {
-    id: 1,
-    name: "Lab",
-    link: "/lab",
-    icon: ImLab,
-  },
-  {
-    id: 2,
-    name: "X",
-    link: "https://x.com/Suleman_devx",
-    icon: FaXTwitter,
-  },
-  {
-    id: 3,
-    name: "GitHub",
-    link: "https://github.com/Suleman_Waraich",
-    icon: FaGithub,
-  },
-  {
-    id: 4,
-    name: "LinkedIn",
-    link: "https://www.linkedin.com/in/muhammad-suleman-9aa056292/",
-    icon: FaLinkedinIn,
-  },
+  { id: 1, name: "Lab", link: "/lab", icon: ImLab },
+  { id: 2, name: "X", link: "https://x.com/Suleman_devx", icon: FaXTwitter },
+  { id: 3, name: "GitHub", link: "https://github.com/SulemanWaraich", icon: FaGithub },
+  { id: 4, name: "LinkedIn", link: "https://www.linkedin.com/in/muhammad-suleman-9aa056292/", icon: FaLinkedinIn },
 ]
 
 const supportText =
-  "If you love what I do, whether it’s my work, the content I share, or anything else, please consider supporting me. Your support helps me continue creating, improving, and sharing my work."
+  "If you love what I do, whether it's my work, the content I share, or anything else, please consider supporting me. Your support helps me continue creating, improving, and sharing my work."
 
 const newsText =
-  "Subscribe to my newsletter to get updates on my latest projects, blogs, and news. Stay connected and be the first to know what I’m working on!"
+  "Subscribe to my newsletter to get updates on my latest projects, blogs, and news. Stay connected and be the first to know what I'm working on!"
+
 export {
   projects,
   writings,

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   keywords: ["Muhammad Suleman", "Portfolio", "Software Developer", "Backend Developer", "Full Stack Developer", "PHP", "Laravel", "Python", "Django", "Node.js", "Vue.js", "React", "AWS"],
   authors: [{ name: "Muhammad Suleman" }],
   creator: "Muhammad Suleman",
-  metadataBase: new URL("https://abdullahbozdag.com"),
+  metadataBase: new URL("https://abdullahbozdag.com"), //chnage to actual domain
   icons: {
     icon: [
       {
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Muhammad Suleman - Software Developer",
     description: "Portfolio of Muhammad Suleman - Software Developer with 8+ years of backend and full-stack experience. Specializing in PHP, Python, Node.js, Laravel, Django, React, Vue.js, and AWS infrastructure.",
-    url: "https://abdullahbozdag.com",
+    url: "https://abdullahbozdag.com", //chnage to actual domain
     siteName: "Muhammad Suleman Portfolio",
     images: [
       {
